@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-utensils"></i>
+                <div>
+                    <h2>FoodExpress</h2>
+                    <span>DELIVERY PORTAL</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <p class="menu-label">MAIN NAVIGATION</p>
+                <a href="#" class="nav-item active">
+                    <i class="fa-solid fa-border-all"></i> Dashboard
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-store"></i> Restaurants
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-book-open"></i> Menu Items
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-receipt"></i> Orders
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-credit-card"></i> Payments
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa-solid fa-bullhorn"></i> Notices
+                </a>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <!-- HEADER -->
+            <header class="top-bar">
+                <div class="page-title">
+                    <h1>Dashboard</h1>
+                    <p>Online Food Ordering & Delivery System</p>
+                </div>
+                <div class="status-indicators">
+                    <div class="status-badge online">
+                        <i class="fa-solid fa-circle"></i> Online - MySQL Connected
+                    </div>
+                    <div class="status-badge student">
+                        <i class="fa-solid fa-user"></i> CUSTOMER
+                    </div>
+                </div>
+            </header>
+
+            <!-- WELCOME BANNER -->
+            <div class="welcome-banner">
+                <span class="badge">CUSTOMER OVERVIEW</span>
+                <h2>Welcome back, Demo Customer!</h2>
+                <p>Real-time food ordering dashboard. Browse restaurants, track live orders, manage delivery addresses, and view order history with full role-based security.</p>
+            </div>
+
+            <!-- SAFETY & PERMISSION CARD (Renamed to Location/Delivery) -->
+            <div class="safety-card">
+                <div class="safety-info">
+                    <h3><i class="fa-solid fa-location-dot"></i> Live Delivery Location & Tracking Status</h3>
+                    <p>Track your delivery partner in real-time. Please grant location permission for accurate delivery updates.</p>
+                </div>
+                <div class="safety-actions">
+                    <select class="block-select">
+                        <option>Home - 123 Main Street</option>
+                        <option>Work - 456 Office Blvd</option>
+                        <option>Other - Add New Address</option>
+                    </select>
+                    <button class="sync-btn">
+                        <i class="fa-solid fa-sync"></i> Sync Live GPS Location
+                    </button>
+                </div>
+            </div>
+
+            <!-- STATS GRID -->
+            <div class="stats-grid">
+                <!-- Card 1 -->
+                <div class="stat-card">
+                    <div class="stat-info">
+                        <span class="stat-label">RESTAURANTS</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-sub">Available nearby</span>
+                    </div>
+                    <div class="stat-icon blue">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="stat-card">
+                    <div class="stat-info">
+                        <span class="stat-label">ACTIVE NOTICES</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-sub">Offers & updates</span>
+                    </div>
+                    <div class="stat-icon purple">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="stat-card">
+                    <div class="stat-info">
+                        <span class="stat-label">MY ORDERS</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-sub">Active & past orders</span>
+                    </div>
+                    <div class="stat-icon orange">
+                        <i class="fa-solid fa-receipt"></i>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="stat-card">
+                    <div class="stat-info">
+                        <span class="stat-label">CART ITEMS</span>
+                        <span class="stat-value">0</span>
+                        <span class="stat-sub">Items in cart</span>
+                    </div>
+                    <div class="stat-icon green">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="stat-card">
+                    <div class="stat-info">
+                        <span class="stat-label">PENDING DUES</span>
+                        <span class="stat-value">₹0</span>
+                        <span class="stat-sub">Payable via UPI / Card</span>
+                    </div>
+                    <div class="stat-icon teal">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM SECTION -->
+            <div class="bottom-section">
+                <h3><i class="fa-solid fa-book"></i> Quick Guidelines & Delivery Protocol</h3>
+                <!-- Content placeholder -->
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
